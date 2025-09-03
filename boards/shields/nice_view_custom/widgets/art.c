@@ -13,11 +13,11 @@
 #endif
 
 
-#ifndef LV_ATTRIBUTE_IMG_DABABY-CONVERTIBLE-BW-DITHER
-#define LV_ATTRIBUTE_IMG_DABABY-CONVERTIBLE-BW-DITHER
+#ifndef LV_ATTRIBUTE_IMG_DABABY_CONVERTIBLE_BW_DITHER
+#define LV_ATTRIBUTE_IMG_DABABY_CONVERTIBLE_BW_DITHER
 #endif
 
-const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_DABABY-CONVERTIBLE-BW-DITHER uint8_t dababy-convertible-bw-dither_map[] = {
+const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_DABABY_CONVERTIBLE_BW_DITHER uint8_t DABABY_CONVERTIBLE_BW_dither_map[] = {
   0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xf0, 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xf0, 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xf0, 
@@ -90,12 +90,13 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_DABABY-CO
   0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xf0, 
 };
 
-const lv_img_dsc_t dababy-convertible-bw-dither = {
+const lv_img_dsc_t DABABY_CONVERTIBLE_BW_dither = {
   .header.cf = LV_IMG_CF_ALPHA_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
   .header.w = 140,
   .header.h = 70,
   .data_size = 1260,
-  .data = dababy-convertible-bw-dither_map,
+  .data = DABABY_CONVERTIBLE_BW_dither_map,
 };
+
