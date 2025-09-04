@@ -138,11 +138,12 @@ const lv_img_dsc_t DABABY_CONVERTIBLE_BW_dither = {
   .header.cf = LV_IMG_CF_ALPHA_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
-  .header.w = 68,
-  .header.h = 140,
+  .header.w = 140,
+  .header.h = 68,
   .data_size = 1260,
   .data = DABABY_CONVERTIBLE_BW_dither_map,
 };
+
 
 
 
